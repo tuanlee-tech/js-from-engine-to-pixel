@@ -1,0 +1,342 @@
+[
+  {
+    "text": "Phase 1 — JS Engine & Runtime Internals",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-1/"
+      },
+      {
+        "text": "Phase 1.1 — How V8 Works: Parsing → AST → Bytecode → JIT",
+        "link": "/phase-1/1.0-how-v8-works-parsing-ast-bytecode-jit"
+      },
+      {
+        "text": "Phase 1.1 — Hidden Classes & Inline Caches",
+        "link": "/phase-1/1.1-hidden-classes-inline-caches"
+      },
+      {
+        "text": "Phase 1.2 — Memory Model: Stack, Heap, Execution Context & Garbage Collection",
+        "link": "/phase-1/1.2-memory-model-stack-vs-heap-execution-context-call-stack-frames-va-garbage-collection-mark-sweep"
+      },
+      {
+        "text": "Phase 1.3 — Event Loop: Cơ chế thật từ Call Stack đến Microtask",
+        "link": "/phase-1/1.3-event-loop"
+      },
+      {
+        "text": "Worker Event Loops (Web Workers, SharedArrayBuffer, Atomics)",
+        "link": "/phase-1/1.4-worker-event-loops"
+      },
+      {
+        "text": "Node.js Event Loop: Deep Dive",
+        "link": "/phase-1/1.5-node.js-event-loop-deep-dive"
+      },
+      {
+        "text": "Phase 1 — Buổi Cuối: GC Tuning, Heap Snapshot Workflow & Cross-Engine Comparison",
+        "link": "/phase-1/1.6-gc-tuning-heap-snapshot-workflow-spidermonkey-javascriptcore-comparison"
+      }
+    ]
+  },
+  {
+    "text": "Phase 2 — JavaScript Core Language",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-2/"
+      },
+      {
+        "text": "Phase 2 — Bài 2.1: Types & Type System",
+        "link": "/phase-2/2.1-types-type-system"
+      },
+      {
+        "text": "Phase 2 — Bài 2.10: Error Handling",
+        "link": "/phase-2/2.10-error-handling"
+      },
+      {
+        "text": "Phase 2 — Bài 2.11: Data Structures & Collections",
+        "link": "/phase-2/2.11-data-structures-collections"
+      },
+      {
+        "text": "Phase 2 — Bài 2.2: Variables & Scoping",
+        "link": "/phase-2/2.2-variables-scoping"
+      },
+      {
+        "text": "Phase 2 — Bài 2.3: Closures",
+        "link": "/phase-2/2.3-closures"
+      },
+      {
+        "text": "Phase 2 — Bài 2.4: Functions",
+        "link": "/phase-2/2.4-functions"
+      },
+      {
+        "text": "Phase 2 — Bài 2.5: Prototype & Object System",
+        "link": "/phase-2/2.5-prototype-object-system"
+      },
+      {
+        "text": "Phase 2 — Bài 2.6: Classes",
+        "link": "/phase-2/2.6-classes"
+      },
+      {
+        "text": "Phase 2 — Bài 2.7: Asynchronous JavaScript",
+        "link": "/phase-2/2.7-asynchronous-javascript"
+      },
+      {
+        "text": "Phase 2 — Bài 2.8: Iterators & Generators",
+        "link": "/phase-2/2.8-iterators-generators"
+      },
+      {
+        "text": "Phase 2 — Bài 2.9: Modules",
+        "link": "/phase-2/2.9-modules"
+      }
+    ]
+  },
+  {
+    "text": "Phase 3 — Browser Internals & Rendering",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-3/"
+      },
+      {
+        "text": "Phase 3.1 (Phần 2) — HTTP Caching · TCP Slow Start · Preload Scanner · Speculation Rules",
+        "link": "/phase-3/3.1-phan-2-http-caching-tcp-slow-start-preload-scanner-speculation-rules"
+      },
+      {
+        "text": "Phase 3.1 — How Browser Works",
+        "link": "/phase-3/3.1-how-browser-works"
+      },
+      {
+        "text": "Phase 3.2 — DOM Internals",
+        "link": "/phase-3/3.2-dom-internals"
+      },
+      {
+        "text": "Phase 3.3 — Events",
+        "link": "/phase-3/3.3-events"
+      },
+      {
+        "text": "Phase 3.4 — Pixel Pipeline",
+        "link": "/phase-3/3.4-pixel-pipeline"
+      },
+      {
+        "text": "Phase 3.5 (phần còn lại) + 3.6 — Animation APIs & CSS↔JS Interaction",
+        "link": "/phase-3/3.6-animation-apis-css-js-interaction"
+      }
+    ]
+  },
+  {
+    "text": "Phase 4 — Performance Engineering",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-4/"
+      },
+      {
+        "text": "Phase 4.1 — Measuring Performance",
+        "link": "/phase-4/4.1-measuring-performance"
+      },
+      {
+        "text": "Phase 4.2 — JavaScript Performance",
+        "link": "/phase-4/4.2-javascript-performance"
+      },
+      {
+        "text": "Phase 4.3 — Network Performance",
+        "link": "/phase-4/4.3-network-performance"
+      },
+      {
+        "text": "Phase 4.4 — Rendering Performance",
+        "link": "/phase-4/4.4-rendering-performance"
+      }
+    ]
+  },
+  {
+    "text": "Phase 5 — Browser APIs",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-5/"
+      },
+      {
+        "text": "Phase 5.1 — Browser Storage: Cơ chế thật từ bên trong",
+        "link": "/phase-5/5.1-browser-storage"
+      },
+      {
+        "text": "Phase 5.1 Buổi 2 — Cookies, Cache API, Storage Quota & OPFS",
+        "link": "/phase-5/5.1.2-cookies-cache-api-storage-quota-opfs"
+      },
+      {
+        "text": "Phase 5.2 Buổi 1 — fetch, AbortController & CORS",
+        "link": "/phase-5/5.2-fetch-abortcontroller-cors"
+      }
+    ]
+  },
+  {
+    "text": "Phase 6 — Security",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-6/"
+      },
+      {
+        "text": "Phase 6.1 — Common Vulnerabilities",
+        "link": "/phase-6/6.1-common-vulnerabilities"
+      },
+      {
+        "text": "Phase 6.2 — Authentication & Authorization",
+        "link": "/phase-6/6.2-authentication-authorization"
+      }
+    ]
+  },
+  {
+    "text": "Phase 7 — Accessibility (a11y)",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-7/"
+      },
+      {
+        "text": "Phase 7.1 — Accessibility Foundations: Cơ chế thật từ Browser đến Screen Reader",
+        "link": "/phase-7/7.1-foundations"
+      },
+      {
+        "text": "Phase 7.2 — ARIA: Cơ chế thật từ Spec đến Screen Reader",
+        "link": "/phase-7/7.2-aria-co-che-that-tu-spec-den-screen-reader"
+      },
+      {
+        "text": "Phase 7.3 — Focus Management: Cơ chế thật từ Browser đến Screen Reader",
+        "link": "/phase-7/7.3-focus-management"
+      },
+      {
+        "text": "Phase 7.4 — Motion & Animation: Cơ chế thật từ Browser đến Vestibular System",
+        "link": "/phase-7/7.4-motion-animation"
+      }
+    ]
+  },
+  {
+    "text": "Phase 8 — HTML Deep Dive",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-8/"
+      },
+      {
+        "text": "Phase 8.1 — Semantic & Structure: HTML Deep Dive",
+        "link": "/phase-8/8.1-semantic-structure"
+      },
+      {
+        "text": "Phase 8.2 — Performance & Loading: Script, Image, Resource Hints",
+        "link": "/phase-8/8.2-performance-loading"
+      },
+      {
+        "text": "Phase 8.3 — Web Components: Custom Elements, Shadow DOM, Templates",
+        "link": "/phase-8/8.3-web-components"
+      }
+    ]
+  },
+  {
+    "text": "Phase 9 — Node.js & Fullstack",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-9/"
+      },
+      {
+        "text": "Phase 9.1 — Node.js Internals",
+        "link": "/phase-9/9.1-node.js-internals"
+      },
+      {
+        "text": "Phase 9.2 — HTTP & APIs",
+        "link": "/phase-9/9.2-http-apis"
+      },
+      {
+        "text": "Phase 9.3 — Databases trong JS Ecosystem",
+        "link": "/phase-9/9.3-databases-trong-js-ecosystem"
+      },
+      {
+        "text": "🎓 Capstone — Synthesis & System Design",
+        "link": "/phase-9/9.4-capstone-synthesis-system-design"
+      }
+    ]
+  },
+  {
+    "text": "Phase 10 — Software Design & Architecture",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-10/"
+      },
+      {
+        "text": "Phase 10.1 — Design Principles",
+        "link": "/phase-10/10.1-design-principles"
+      },
+      {
+        "text": "Phase 10.2 — Design Patterns",
+        "link": "/phase-10/10.2-design-patterns"
+      },
+      {
+        "text": "Phase 10.3 — State Management",
+        "link": "/phase-10/10.3-state-management"
+      },
+      {
+        "text": "Phase 10.4 — Testing",
+        "link": "/phase-10/10.4-testing"
+      },
+      {
+        "text": "Phase 10.5 — TypeScript Advanced",
+        "link": "/phase-10/10.5-typescript-advanced"
+      }
+    ]
+  },
+  {
+    "text": "Phase 11 — Tooling & DevEx",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-11/"
+      },
+      {
+        "text": "Phase 11.1 — Build Tools: Cơ Chế Thật Từ esbuild đến Vite",
+        "link": "/phase-11/11.1-build-tools"
+      },
+      {
+        "text": "Phase 11.2 — Developer Tools: Chrome DevTools Từ Cơ Chế Đến Production Debug",
+        "link": "/phase-11/11.2-developer-tools"
+      },
+      {
+        "text": "Phase 11.3 — CI/CD & Code Quality: Từ Cơ Chế Đến Production Pipeline",
+        "link": "/phase-11/11.3-ci-cd-code-quality"
+      }
+    ]
+  },
+  {
+    "text": "Phase 12 — Soft Skills của Principal",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Roadmap",
+        "link": "/phase-12/"
+      },
+      {
+        "text": "Phase 12.1 — Technical Leadership",
+        "link": "/phase-12/12.1-technical-leadership"
+      },
+      {
+        "text": "Phase 12.2 — System Thinking",
+        "link": "/phase-12/12.2-system-thinking"
+      },
+      {
+        "text": "Phase 12 — Capstone & Synthesis: Từ Senior đến Staff/Principal",
+        "link": "/phase-12/12.3-capstone-synthesis"
+      }
+    ]
+  }
+]

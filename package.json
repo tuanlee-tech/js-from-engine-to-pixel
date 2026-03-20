@@ -1,0 +1,17 @@
+{
+  "name": "js-from-engine-to-pixel",
+  "homepage": "https://tuanlee-tech.github.io/js-from-engine-to-pixel/",
+  "version": "1.0.0",
+  "description": "Hiểu JavaScript từ engine internals đến rendering pipeline và system design — không học syntax, học cơ chế.",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "@vite-pwa/vitepress": "^0.5.3"
+  }
+}
