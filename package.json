@@ -11,7 +11,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.6.4",
-    "@vite-pwa/vitepress": "^0.5.3"
+    "@types/node": "^25.5.0",
+    "@vite-pwa/vitepress": "^0.5.3",
+    "vitepress": "^1.6.4"
   }
 }
