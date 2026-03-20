@@ -15,7 +15,10 @@ export default withPwa(
     base: base,
     head: [
       ['link', { rel: 'icon', type: 'image/png', href: `${base}logo.png` }],
+      ['link', { rel: 'apple-touch-icon', href: `${base}apple-touch-icon-180x180.png` }],
       ['meta', { name: 'theme-color', content: '#F0DB4F' }],
+      ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+      ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:locale', content: 'vi_VN' }],
       [

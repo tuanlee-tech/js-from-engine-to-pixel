@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.5.0",
+    "@vite-pwa/assets-generator": "^0.2.6",
     "@vite-pwa/vitepress": "^0.5.3",
     "vitepress": "^1.6.4"
   }
